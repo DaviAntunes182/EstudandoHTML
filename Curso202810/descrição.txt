@@ -1,0 +1,3 @@
+Curso de HTML e CSS:
+    Classes, posicionamento e Flexbox
+Iniciado: 11/10/2024, projeto continuado do curso anterior
