@@ -1,0 +1,3 @@
+Curso de HTML e CSS:
+    cabeçalho, footer e variáveis CSS
+Iniciado: 13/10/2024, projeto continuado do curso anterior
