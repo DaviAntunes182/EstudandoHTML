@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+/* Variáveis no CSS */
+:root{
+    --cor--primaria: black;
+    --cor--secundaria: white;
+    --cor--terciaria: aqua;
+
+    --fonte--montesarrt: 'Montserrat', sans-serif;
+    --fonte--kronaone: 'Krona One', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor--primaria);
+}
+
+.index-header{
+    padding-top: 2%;
+    padding-left: 15%;
+}
+.index-header_menu{
+    display: flex;
+    gap: 80px;
+    font-family: var(--fonte--kronaone);
+}
+.index-header_menu_anchors{
+    font-family: var(--fonte--kronaone);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor--terciaria);
+    text-decoration: none;
+}
+
+.index-main{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.index-main_section1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.index-main_section1_titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte--kronaone);
+    color: var(--cor--secundaria);
+}
+.index-main_section1_conteudo{
+    font-size: 1.25rem;
+    font-family: var(--fonte--montesarrt);
+    color: var(--cor--secundaria);
+}
+.index-main_section1_anchors{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.index-main_section1_anchors_titulo{
+    color: var(--cor--secundaria);
+}
+/**/
+.index-main_section1_anchorInsta{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    background-color: rgb(238, 19, 143);
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: var(--fonte--montesarrt);
+    font-weight: 600;
+}
+.index-main_section1_anchorYoutube{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    background-color: red;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-family: var(--fonte--montesarrt);
+    font-weight: 600;
+
+}.index-main_section1_anchorWiki{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    background-color: grey;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: var(--fonte--montesarrt);
+    font-weight: 600;
+}
+.index-main_section1_anchorInsta:hover{
+    background-color: rgb(255, 134, 203);
+}
+.index-main_section1_anchorYoutube:hover{
+    background-color: rgb(251, 92, 92);
+}
+.index-main_section1_anchorWiki:hover{
+    background-color: rgb(193, 193, 193);
+}
+.Cris{
+    height: 500px;
+    width: 50%;
+}
+.icone{
+    height: 25px;
+    width: 25px;
+}
+
+.index-footer{
+    padding: 24px;
+    text-align: center;
+    color: var(--cor--primaria);
+    background-color: var(--cor--terciaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.autor{
+    color: var(--cor--primaria);
+}
+/* Aplicando condicionais no CSS */
+/* Quando o tamanho for menor que 1200px */
+@media(max-width: 1200px){
+    .index-header{
+        padding-top: 10%;
+        padding-left: 0%;
+    }
+    .index-header_menu{
+        justify-content: center;
+    }
+    .index-main{
+        padding: 5%;
+        flex-direction: column-reverse;
+
+    }
+    .index-main_section1{
+        width: auto;
+    }
+}

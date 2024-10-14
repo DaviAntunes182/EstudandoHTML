@@ -1,0 +1,5 @@
+Curso de HTML e CSS:
+    trabalhando com responsividade e publicação de projetos
+Iniciado: 14/10/2024, projeto continuado do curso anterior
+
+Pixels são muito absolutas, é uma medida que não varia de acordo com o dispositivo utilizado para visualização
